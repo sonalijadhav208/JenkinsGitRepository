@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AntJenkinsTestSuite" parallel="classes" thread-count="2">
+
+
+  <test thread-count="5" name="My Test">
+    <classes>
+      <class name="myPackage.BaseClass"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="TestNg Test" default="run">
+
+	<target name="run" depends="compile">
+	</target>
+
+	<target name="compile">
+		<javac srcdir="./src"
+			destdir="staging">
+		</javac>
+
+	</target>
+
+</project>
